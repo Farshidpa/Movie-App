@@ -11,7 +11,7 @@ body{
     background-image:linear-gradient(rgb(0,0,50,0.8),rgb(0,0,50,1.7));     background-size: cover;
 }
 header{
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: flex-end;
     background-color:#373b69;
@@ -23,18 +23,19 @@ header{
 }
 .search{
     background-color: transparent;
-    border: 2px solid #22254b;
-    border-radius: 50px;
+    margin-right: 30px;
     font-size: 1rem;
-    padding: 0.5rem 1rem;
+    border: 2px solid #22254b;
+    padding: 0.3rem 5rem;
     color: #fff;
-    height: 60px;
+    height: 40px;
+     border-radius: 30px;
 }
 .search::placeholder{
     color: #7378c5;
     font-family: serif;
     font-weight: bold;
-    font-variant: initial;
+    margin-left: -30px;
 }
 .search:focus{
     outline: none;
