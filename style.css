@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
+
     justify-content: flex-end;
     margin: 0;
-    overflow: hidden;
+   
     background-image:linear-gradient(rgb(0,0,50,0.8),rgb(0,0,50,1.7));     background-size: cover;
 }
 header{
@@ -28,6 +28,7 @@ header{
     font-size: 1rem;
     padding: 0.5rem 1rem;
     color: #fff;
+    height: 60px;
 }
 .search::placeholder{
     color: #7378c5;
@@ -43,7 +44,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: auto;
+    
+    
 }
 .movie{
     width: 300px;
